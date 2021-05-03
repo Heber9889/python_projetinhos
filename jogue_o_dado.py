@@ -9,9 +9,9 @@ class SimuladorDeDado:
     def Iniciar(self):
         resposta = input(self.mensagem)
         try:        
-            if resposta == "sim" or resposta == "s":
+            if resposta == "sim" or "yes" or "ok" or resposta == "s" or "y" :
                 self.GerarValorDoDado()
-            elif resposta == "nao" or resposta == "n":
+            elif resposta == "nao" or "exit" or "quit" or  resposta == "n" :
                 print("#-----------------------------------------------#\n|            (: Obrigado Por Jogar :)           |\n#-----------------------------------------------#")
             else:
                 print("#---------------------------------------------------------#\n| Ocoreu Um Erro Responda Com (sim) ou (nao) Obrigado!    |\n#---------------------------------------------------------#")
