@@ -4,5 +4,8 @@
 <head>
 <meta charset="utf-8">
 <title>Projetinhos Do Tom</title>
-  
-<p1>PROJETINHOS BASICOS EM PYTHON <p1/>
+<head/>
+<body>
+<p3>PROJETINHOS BASICOS EM PYTHON <p1/>
+<body/>
+<html/>
